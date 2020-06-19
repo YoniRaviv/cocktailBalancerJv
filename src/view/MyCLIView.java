@@ -3,11 +3,9 @@ package view;
 
 import model.FinalCalc;
 import model.Total;
-
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Scanner;
 
@@ -70,7 +68,7 @@ public class MyCLIView extends Observable implements View, Runnable{
     private void showJuiceMenu() {
         System.out.println("menu 2");
 
-        System.out.println("[4] Orange");
+        System.out.println("[4] syrup");
         System.out.println("[5] Pinapple");
         System.out.println("[6] Toniq");
         System.out.println("[7] Lime");
@@ -114,16 +112,7 @@ public class MyCLIView extends Observable implements View, Runnable{
 
         }
 
-
-
-
     }
-  
-
-//    public void write(String string) {
-//        output.println(string);
-//        output.flush();
-//    }
 
 
     @Override

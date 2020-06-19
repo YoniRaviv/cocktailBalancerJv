@@ -5,7 +5,7 @@ public enum AlcoholData{
     VODKA (0.4, 0,0),
     GIN   (0.5,0,0),
     WISKEY  (0.3,0,0),
-    Orange (0, 0,0),
+    Syrup (0, 61.5,0),
     Pinapple   (0,0,0),
     Toniq (0,1.6,60),
     Lime  (0,1.6,0.6);

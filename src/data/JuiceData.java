@@ -1,11 +1,11 @@
 package data;
 
-public enum  JuiceData {
+public enum JuiceData {
 
-    Orange (0, 0,0),
+    syrup (0, 61.1,0),
     Pinapple   (0,0,0),
     Toniq (0,1.6,60),
-    Lime  (0,1.6,6/100);
+    Lime  (0,1.6,0.6);
 
 
     private double Ethanol;
