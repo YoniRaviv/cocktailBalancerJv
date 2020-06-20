@@ -13,14 +13,12 @@ public class MVCDriver {
 
         View view = new MyCLIView(System.in, System.out);
 
-        System.out.println("hello");
+        System.out.println("\n" +"\t" +"\t" +"\t" +"\t" + "WELCOME TO THE COCKTAIL BALANCER.");
+        System.out.println("\t" +"\t" +"\t" +"\t" + "#################################");
         Controller controller = new MyController(model, view);
 
         ((MyModel)model).addObserver(controller);
 
-        /**
-         * ADD view as observer to controller (uncomment your view)
-         */
 
 		((MyCLIView)view).addObserver(controller);
 

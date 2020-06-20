@@ -19,10 +19,6 @@ public class MyCLIView extends Observable implements View, Runnable{
     int count = 0;
 
 
-//    public void setOutput(PrintWriter output) {
-//        this.output = output;
-//    }
-
     public MyCLIView(InputStream in, OutputStream out) {
         input = new Scanner(in);
         output = new PrintWriter(out);
@@ -32,13 +28,11 @@ public class MyCLIView extends Observable implements View, Runnable{
     public void run() {
 
         int clientInput = 0;
-        double num = 0.218181818187;
 
         while (clientInput != -1 && count!=3){
-
-            System.out.println("Pls enter ");
-            System.out.println("1 - Alcohol");
-            System.out.println("2 - Juice");
+            System.out.println("\n"+"Select what type of ingredient you want to add:");
+            System.out.println("[1] - Alcohol (base spirits that contain ethanol)");
+            System.out.println("[2] - Juices & Mixers (ingredients with sugar and acid)");
 
             clientInput = input.nextInt();
 
@@ -50,68 +44,74 @@ public class MyCLIView extends Observable implements View, Runnable{
                     count++;
                 break;
             }
-
         }
 
-        System.out.println("Pls enter method");
-        System.out.println("1 - shaken");
-        System.out.println("2 - stired");
+        System.out.println("\n"+"\t"+"\t"+"\t"+"\t"+"Finally select the preferred method:");
+        System.out.println("\t"+"\t"+"\t"+"\t"+"-------------------------------------");
+        System.out.println("1 - Shaken (with 120gr of ice for 20sec)");
+        System.out.println("2 - Stirred (with 120gr of ice for 30sec)");
 
         int method = input.nextInt();
         finalCalc.setMethod(method);
         setChanged();
         notifyObservers(finalCalc);
-
     }
 
 
     private void showJuiceMenu() {
-        System.out.println("menu 2");
+        System.out.println("\t"+"\t"+"\t"+"\t"+"Choose your juices & mixers:");
+        System.out.println("\t"+"\t"+"\t"+"\t"+"-------------------------");
 
-        System.out.println("[4] syrup");
-        System.out.println("[5] Pinapple");
-        System.out.println("[6] Toniq");
-        System.out.println("[7] Lime");
+        System.out.println("[6] Simple Syrup");
+        System.out.println("[7] Pineapple");
+        System.out.println("[8] Tonic Water");
+        System.out.println("[9] Lime Juice");
+        System.out.println("[10] Orange");
 
         int juiceInput = input.nextInt();
 
         Integer measure = null;
-        if (juiceInput > 3 && juiceInput < 8) {
-
-
-            System.out.println("Pls enter vol: ");
-            measure = input.nextInt();
-
-            if (measure > 0 && measure < 90) {
-//                getIngredient(alcoholInput,measure);
-                finalCalc.getTotals().add(new Total(juiceInput,measure));
-            }
-
+        if (juiceInput > 5 && juiceInput < 11) {
+            enterAndValidateMeasure(juiceInput);
+        } else {
+            System.out.println("Error: Not a correct value please enter between 6-10.");
         }
+
     }
 
     private void showAlcoholMenu() {
 
-        System.out.println("menu 1");
+        System.out.println("\t"+"\t"+"\t"+"\t"+"Choose your base spirits:");
+        System.out.println("\t"+"\t"+"\t"+"\t"+"-------------------------");
 
-        System.out.println("[1] Vodka");
-        System.out.println("[2] gin");
-        System.out.println("[3] wiskey");
+        System.out.println("[1] Vodka 40%");
+        System.out.println("[2] Gin 40%");
+        System.out.println("[3] Wiskey 42%");
+        System.out.println("[4] Rum 40%");
+        System.out.println("[5] Campari 22%");
 
         int alcoholInput = input.nextInt();
 
         Integer measure = null;
-        if (alcoholInput > 0 && alcoholInput < 5) {
-
-            System.out.println("Pls enter vol: ");
-            measure = input.nextInt();
-
-            if (measure > 0 && measure < 90) {
-                finalCalc.getTotals().add(new Total(alcoholInput,measure));
-            }
-
+        if (alcoholInput > 0 && alcoholInput < 6) {
+            enterAndValidateMeasure(alcoholInput);
+        } else {
+            System.out.println("Error: Not a correct value please enter between 1-5.");
         }
 
+    }
+
+    private void enterAndValidateMeasure(int alcoholInput) {
+        Integer measure;
+        System.out.print("Enter the volume(ml): ");
+
+        measure = input.nextInt();
+
+        if (measure > 0 && measure < 90) {
+            finalCalc.getTotals().add(new Total(alcoholInput,measure));
+        } else {
+            System.out.println("Error: enter only values between 0-90 ml");
+        }
     }
 
 
