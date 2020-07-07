@@ -7,10 +7,7 @@ import static org.junit.Assert.*;
 
 public class MyModelTest {
 
-    @Before
-    public void setUp() throws Exception {
-        FinalCalc finals = new FinalCalc();
-    }
+
 
     @Test
     public void calc() {
@@ -32,9 +29,17 @@ public class MyModelTest {
 
     @Test
     public void sugarRange() {
+        FinalCalc finals = new FinalCalc();
+        double finalSugar = finals.finalSugar(12.4, 105, 159);
+        assertTrue("final Sugar is out of range: " + "3.7-8.9", 3.7 <= finalSugar*100 && finalSugar*100 <= 8.9);
     }
 
     @Test
     public void acidRange() {
+        FinalCalc finals = new FinalCalc();
+        double finalAcid = finals.finalAcid(1.2, 105, 159);
+        System.out.println(finalAcid*10);
+        assertTrue("final Sugar is out of range: " + "0.1-0.94", 0.1 <= finalAcid*10 && finalAcid*10 <= 0.94);
+
     }
 }

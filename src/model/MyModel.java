@@ -9,19 +9,10 @@ import java.util.Observable;
 public class MyModel extends Observable implements Model {
 
     private double totalAbv = 0;
-    private double totalSuger = 0;
+    private double totalSugar = 0;
     private double totalAcid = 0;
     private double dilution = 0;
 
-    public MyModel() {
-    }
-
-    public MyModel(double totalAbv, double totalSuger, double totalAcid, double dilution) {
-        this.totalAbv = totalAbv;
-        this.totalSuger = totalSuger;
-        this.totalAcid = totalAcid;
-        this.dilution = dilution;
-    }
 
     public void calc(FinalCalc arg) {
         double finalAbv = 0;
@@ -45,7 +36,7 @@ public class MyModel extends Observable implements Model {
         // sum all measure inputs from user
         for (int i =0; i< 3; i++){
             totalAbv += (arg.getTotals().get(i).getMeasure() * drink.get(i).getEthanol()) /totalVol;
-            totalSuger += (arg.getTotals().get(i).getMeasure() * drink.get(i).getSugar()) /totalVol;
+            totalSugar += (arg.getTotals().get(i).getMeasure() * drink.get(i).getSugar()) /totalVol;
             totalAcid += (arg.getTotals().get(i).getMeasure() * drink.get(i).getAcid()) /totalVol;
         }
 
@@ -60,7 +51,7 @@ public class MyModel extends Observable implements Model {
         FinalCalc finals = new FinalCalc();
         finalVol = (totalVol*dilution)+totalVol;
         finalAbv = finals.finalAbv(totalAbv, totalVol, finalVol);
-        finalSugar = finals.finalSugar(totalSuger, totalVol, finalVol);
+        finalSugar = finals.finalSugar(totalSugar, totalVol, finalVol);
         finalAcid = finals.finalAcid(totalAcid, totalVol, finalVol);
         sugarAcidBalance = (finalSugar/finalAcid);
 
@@ -118,7 +109,7 @@ public class MyModel extends Observable implements Model {
 
     public String acidRange(double value) {
         String message = null;
-        if (value*10 >= 0.0 && value*10 <= 0.94) {
+        if (value*10 >= 0.1 && value*10 <= 0.94) {
             message = "Very good acidity levels!";
         } else {
             message = "Please correct your acid levels!";
