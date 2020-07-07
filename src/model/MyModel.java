@@ -12,15 +12,21 @@ public class MyModel extends Observable implements Model {
     private double totalSuger = 0;
     private double totalAcid = 0;
     private double dilution = 0;
-    private double finalAbv = 0;
-    private int totalVol = 0;
-    private double finalVol = 0;
-    private double finalSugar = 0;
-    private double finalAcid = 0;
-    private double sugarAcidBalance = 0;
 
+    public MyModel(double totalAbv, double totalSuger, double totalAcid, double dilution) {
+        this.totalAbv = totalAbv;
+        this.totalSuger = totalSuger;
+        this.totalAcid = totalAcid;
+        this.dilution = dilution;
+    }
 
     public void calc(FinalCalc arg) {
+        double finalAbv = 0;
+        int totalVol = 0;
+        double finalVol = 0;
+        double finalSugar = 0;
+        double finalAcid = 0;
+        double sugarAcidBalance = 0;
 
         //DB for all the data about the ingredients
         ArrayList<AlcoholData> drink = new ArrayList();
@@ -77,7 +83,7 @@ public class MyModel extends Observable implements Model {
 
 
     //utility functions to check for ranges
-    private String volRange(double value) {
+    public String volRange(double value) {
         String message = null;
         if (value >= 130 && value <= 190) {
             message = "Very Good!";
@@ -87,7 +93,7 @@ public class MyModel extends Observable implements Model {
         return message;
     }
 
-    private String abvRange(double value) {
+    public String abvRange(double value) {
         String message = null;
         if (value*100 >= 15.0 && value*100 <= 29.0) {
             message = "Very good final ABV!";
@@ -97,7 +103,7 @@ public class MyModel extends Observable implements Model {
         return message;
     }
 
-    private String sugarRange(double value) {
+    public String sugarRange(double value) {
         String message = null;
         if (value*100 >= 3.7 && value*100 <= 8.9) {
             message = "Very good final sugar ratio!";
@@ -107,7 +113,7 @@ public class MyModel extends Observable implements Model {
         return message;
     }
 
-    private String acidRange(double value) {
+    public String acidRange(double value) {
         String message = null;
         if (value*10 >= 0.0 && value*10 <= 0.94) {
             message = "Very good acidity levels!";
