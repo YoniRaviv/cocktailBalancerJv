@@ -4,8 +4,6 @@ import model.FinalCalc;
 import model.Model;
 import model.MyModel;
 import view.View;
-
-import java.util.ArrayList;
 import java.util.Observable;
 
 public class MyController implements Controller {
@@ -17,7 +15,7 @@ public class MyController implements Controller {
         this.view = view;
         this.model = model;
     }
-
+    //updates the view from model and vice versa
     @Override
     public void update(Observable o, Object arg) {
         if (o instanceof View) {

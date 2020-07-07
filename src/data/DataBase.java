@@ -1,7 +1,8 @@
 package data;
 
-public enum AlcoholData{
+public enum DataBase {
 
+    //All the data needed for the calculations stored in an Enum
     VODKA (0.4, 0,0),
     GIN   (0.4,0,0),
     WISKEY  (0.3,0,0),
@@ -13,12 +14,11 @@ public enum AlcoholData{
     Lime  (0,1.6,0.6),
     Orange (0, 12.4, 0.08);
 
-
     private double Ethanol;
     private double Sugar;
     private double acid;
 
-    AlcoholData(double ethanol, double sugar, double acid) {
+    DataBase(double ethanol, double sugar, double acid) {
         this.Ethanol = ethanol;
         this.Sugar = sugar;
         this.acid = acid;

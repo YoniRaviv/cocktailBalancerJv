@@ -1,7 +1,7 @@
 package model;
-
 import java.util.ArrayList;
 
+//
 public class FinalCalc {
 
     ArrayList<Total> totals = new ArrayList<>();
@@ -22,6 +22,7 @@ public class FinalCalc {
     public void setMethod(int method) {
         this.method = method;
     }
+    //Finals calculations for checking the range for the results
     public double finalAbv(double totalAbv, double totalVol, double finalVol) {
         return ((totalAbv*totalVol)/finalVol);
     }

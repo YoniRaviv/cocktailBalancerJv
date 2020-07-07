@@ -1,6 +1,5 @@
 package view;
 
-
 import model.FinalCalc;
 import model.Total;
 import java.io.InputStream;
@@ -15,8 +14,7 @@ public class MyCLIView extends Observable implements View, Runnable{
     private Scanner input;
     private PrintWriter output;
     private FinalCalc finalCalc = new FinalCalc();
-
-    int count = 0;
+    private int count = 0;
 
 
     public MyCLIView(InputStream in, OutputStream out) {
@@ -27,13 +25,11 @@ public class MyCLIView extends Observable implements View, Runnable{
     @Override
     public void run() {
 
+        //user enters all the inputs and selections here
         int clientInput = 0;
-
         while (clientInput != -1 && count!=3){
-            System.out.println("\n"+"Select what type of ingredient you want to add:");
-            System.out.println("[1] - Alcohol (base spirits that contain ethanol)");
-            System.out.println("[2] - Juices & Mixers (ingredients with sugar and acid)");
 
+            selectionMenu();
             clientInput = input.nextInt();
 
             switch (clientInput){
@@ -46,13 +42,10 @@ public class MyCLIView extends Observable implements View, Runnable{
             }
         }
 
-        System.out.println("\n"+"\t"+"\t"+"\t"+"\t"+"Finally select the preferred method:");
-        System.out.println("\t"+"\t"+"\t"+"\t"+"-------------------------------------");
-        System.out.println("1 - Shaken (with 120gr of ice for 20sec)");
-        System.out.println("2 - Stirred (with 120gr of ice for 30sec)");
-
+        methodMenu();
         int method = input.nextInt();
         finalCalc.setMethod(method);
+        //notify the controller about all inputs
         setChanged();
         notifyObservers(finalCalc);
     }
@@ -66,11 +59,10 @@ public class MyCLIView extends Observable implements View, Runnable{
         System.out.println("[7] Pineapple");
         System.out.println("[8] Tonic Water");
         System.out.println("[9] Lime Juice");
-        System.out.println("[10] Orange");
+        System.out.println("[10] Orange Juice");
 
         int juiceInput = input.nextInt();
 
-        Integer measure = null;
         if (juiceInput > 5 && juiceInput < 11) {
             enterAndValidateMeasure(juiceInput);
         } else {
@@ -92,7 +84,6 @@ public class MyCLIView extends Observable implements View, Runnable{
 
         int alcoholInput = input.nextInt();
 
-        Integer measure = null;
         if (alcoholInput > 0 && alcoholInput < 6) {
             enterAndValidateMeasure(alcoholInput);
         } else {
@@ -101,6 +92,7 @@ public class MyCLIView extends Observable implements View, Runnable{
 
     }
 
+    //gets the drink measure from user in Ml
     private void enterAndValidateMeasure(int alcoholInput) {
         Integer measure;
         System.out.print("Enter the volume(ml): ");
@@ -112,6 +104,18 @@ public class MyCLIView extends Observable implements View, Runnable{
         } else {
             System.out.println("Error: enter only values between 0-90 ml");
         }
+    }
+
+    private void selectionMenu () {
+        System.out.println("\n"+"Select what type of ingredient you want to add:");
+        System.out.println("[1] - Alcohol (base spirits that contain ethanol)");
+        System.out.println("[2] - Juices & Mixers (ingredients with sugar and acid)");
+    }
+    private void methodMenu () {
+        System.out.println("\n"+"\t"+"\t"+"\t"+"\t"+"Finally select the preferred method:");
+        System.out.println("\t"+"\t"+"\t"+"\t"+"-------------------------------------");
+        System.out.println("1 - Shaken (with 120gr of ice for 20sec)");
+        System.out.println("2 - Stirred (with 120gr of ice for 30sec)");
     }
 
 

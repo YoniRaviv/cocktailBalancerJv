@@ -1,6 +1,6 @@
 package model;
 
-import data.AlcoholData;
+import data.DataBase;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -24,11 +24,11 @@ public class MyModel extends Observable implements Model {
         double sugarAcidBalance = 0;
 
         //DB for all the data about the ingredients
-        ArrayList<AlcoholData> drink = new ArrayList();
+        ArrayList<DataBase> drink = new ArrayList();
 
-        drink.add(AlcoholData.values()[arg.getTotals().get(0).getDrink() -1]);
-        drink.add(AlcoholData.values()[arg.getTotals().get(1).getDrink() -1]);
-        drink.add(AlcoholData.values()[arg.getTotals().get(2).getDrink() -1]);
+        drink.add(DataBase.values()[arg.getTotals().get(0).getDrink() -1]);
+        drink.add(DataBase.values()[arg.getTotals().get(1).getDrink() -1]);
+        drink.add(DataBase.values()[arg.getTotals().get(2).getDrink() -1]);
 
         //All the first values calculations for the final calculations
         totalVol = arg.getTotals().get(0).getMeasure()

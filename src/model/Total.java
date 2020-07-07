@@ -2,9 +2,9 @@ package model;
 
 public class Total {
 
+    //class for storing the user inputs of chosen drink and its mesuare
     private int drink;
     private int measure;
-
 
     public Total(int drink, int measure) {
         this.drink = drink;
