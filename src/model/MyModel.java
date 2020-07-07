@@ -13,6 +13,9 @@ public class MyModel extends Observable implements Model {
     private double totalAcid = 0;
     private double dilution = 0;
 
+    public MyModel() {
+    }
+
     public MyModel(double totalAbv, double totalSuger, double totalAcid, double dilution) {
         this.totalAbv = totalAbv;
         this.totalSuger = totalSuger;

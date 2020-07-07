@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51658972-2467-454e-a781-f047c8495907" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/model/FinalCalcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/model/MyModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/model/TotalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cocktailCalc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cocktailCalc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cocktailCalc/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cocktailCalc/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cocktailCalc/data/AlcoholData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cocktailCalc/data/AlcoholData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cocktailCalc/driver/MVCDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cocktailCalc/driver/MVCDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cocktailCalc/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cocktailCalc/model/Model.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cocktailCalc/model/MyModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cocktailCalc/model/MyModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cocktailCalc/view/MyCLIView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cocktailCalc/view/MyCLIView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/MyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MyModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/MyModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/MyModelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/MyModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-987">
-              <caret line="15" column="91" selection-start-line="15" selection-start-column="91" selection-end-line="15" selection-end-column="91" />
+            <state relative-caret-position="-386">
+              <caret line="61" column="65" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,12 +35,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/model/MyModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="423">
+              <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/driver/MVCDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -74,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/model/Ingredient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -274,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TotalTest">
+  <component name="RunManager" selected="JUnit.MyModelTest">
     <configuration name="MVCDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="driver.MVCDriver" />
       <module name="cocktailCalc" />
@@ -284,6 +282,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cocktailCalc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.MyModelTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -305,6 +318,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyModelTest" />
         <item itemvalue="JUnit.TotalTest" />
         <item itemvalue="Application.MVCDriver" />
       </list>
@@ -323,7 +337,7 @@
       <workItem from="1591711191846" duration="2094000" />
       <workItem from="1591718348862" duration="225000" />
       <workItem from="1592317100406" duration="39922000" />
-      <workItem from="1594047428011" duration="4858000" />
+      <workItem from="1594047428011" duration="5885000" />
     </task>
     <task id="LOCAL-00001" summary="all calculations functions are done!">
       <created>1592573940738</created>
@@ -339,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592641741473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Unit tests and cosmetic changes">
+      <created>1594108285211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594108285211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -349,12 +370,16 @@
     <history-entry file="TotalTest - 2020.07.07 at 10h 22m 20s.xml">
       <configuration name="TotalTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyModelTest - 2020.07.07 at 11h 02m 26s.xml">
+      <configuration name="MyModelTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47099000" />
+    <option name="totallyTimeSpent" value="48126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1812" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,17 +390,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4981685" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4969475" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4969475" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50305253" side_tool="true" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32834226" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502442" side_tool="true" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.498779" weight="0.32834226" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,7 +418,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all calculations functions are done!" />
     <MESSAGE value="CLI final look" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLI final look" />
+    <MESSAGE value="Unit tests and cosmetic changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit tests and cosmetic changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hit/controller/Controller.java" />
@@ -402,13 +428,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Finals.java" />
-    <entry file="file://$PROJECT_DIR$/src/driver/MVCDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/controller">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -534,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/AlcoholData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Total.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -558,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/src/model/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -583,10 +595,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/driver/MVCDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AlcoholData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/MyModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-987">
-          <caret line="15" column="91" selection-start-line="15" selection-start-column="91" selection-end-line="15" selection-end-column="91" />
+        <state relative-caret-position="-386">
+          <caret line="61" column="65" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -595,12 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/model/MyModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="423">
+          <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
         </state>
       </provider>
     </entry>
