@@ -8,12 +8,13 @@ import java.util.Observable;
 
 public class MyModel extends Observable implements Model {
 
+    //Global vars used to calculate ranges and final values
     private double totalAbv = 0;
     private double totalSugar = 0;
     private double totalAcid = 0;
     private double dilution = 0;
 
-
+//All user input calcs done here
     public void calc(FinalCalc arg) {
         double finalAbv = 0;
         int totalVol = 0;
@@ -69,7 +70,7 @@ public class MyModel extends Observable implements Model {
     }
 
     //utility function to format the values to 2 decimal places and return with % sign
-    private static String roundAndLimit(double value) {
+    public String roundAndLimit(double value) {
         DecimalFormat df = new DecimalFormat("#.##%");
         return df.format(value);
 

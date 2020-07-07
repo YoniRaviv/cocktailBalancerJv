@@ -3,6 +3,8 @@ package model;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.text.DecimalFormat;
+
 import static org.junit.Assert.*;
 
 public class MyModelTest {
@@ -11,6 +13,13 @@ public class MyModelTest {
 
     @Test
     public void calc() {
+        double finalAbv = 0.229;
+        double shaken = ((-1.567 * finalAbv*finalAbv) + (1.742 * finalAbv) ) + 0.203;
+        double stirred = ((-1.21 * finalAbv*finalAbv) + (1.246 * finalAbv) ) + 0.145;
+
+        assertTrue("final dilution from shaking: " + "50%-60%", 0.50 <= shaken && shaken <= 0.60);
+        assertTrue("final dilution from stirring: " + "34%-42%", 0.34 <= stirred && stirred <= 0.42);
+
     }
 
     @Test
@@ -38,8 +47,15 @@ public class MyModelTest {
     public void acidRange() {
         FinalCalc finals = new FinalCalc();
         double finalAcid = finals.finalAcid(1.2, 105, 159);
-        System.out.println(finalAcid*10);
         assertTrue("final Sugar is out of range: " + "0.1-0.94", 0.1 <= finalAcid*10 && finalAcid*10 <= 0.94);
+
+    }
+
+    @Test
+    public void roundAndLimit() {
+        double value = 0.4233;
+        DecimalFormat df = new DecimalFormat("#.##%");
+        assertEquals("formating not working", "42.33%", df.format(value));
 
     }
 }
