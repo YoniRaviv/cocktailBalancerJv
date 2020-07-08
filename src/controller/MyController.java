@@ -19,7 +19,7 @@ public class MyController implements Controller {
     @Override
     public void update(Observable o, Object arg) {
         if (o instanceof View) {
-            ((MyModel) model).calc((FinalCalc) arg);
+            model.calc((FinalCalc) arg);
         } else if (o instanceof MyModel) {
             view.showResults((String) arg);
         }

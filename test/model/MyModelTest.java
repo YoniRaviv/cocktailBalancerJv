@@ -58,4 +58,9 @@ public class MyModelTest {
         assertEquals("formating not working", "42.33%", df.format(value));
 
     }
+
+    @Test
+    public void recommendation() {
+
+    }
 }

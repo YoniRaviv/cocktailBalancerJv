@@ -89,7 +89,6 @@ public class MyCLIView extends Observable implements View, Runnable{
         } else {
             System.out.println("Error: Not a correct value please enter between 1-5.");
         }
-
     }
 
     //gets the drink measure from user in Ml
