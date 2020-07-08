@@ -1,7 +1,6 @@
 package model;
 
 import data.DataBase;
-
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Observable;
@@ -14,7 +13,7 @@ public class MyModel extends Observable implements Model {
     private double totalAcid = 0;
     private double dilution = 0;
 
-//All user input calcs done here
+    //All user input calcs done here
     public void calc(FinalCalc arg) {
         double finalAbv = 0;
         int totalVol = 0;
@@ -62,13 +61,18 @@ public class MyModel extends Observable implements Model {
 
         setChanged();
         notifyObservers("Dilution Rate: " + roundAndLimit(dilution) +
-                        "\n" +"Final Volume: " + (int)finalVol + " ml. - "+ volRange(finalVol) +
-                "\n" + "Final Abv%: " + roundAndLimit(finalAbv) + " - "+abvRange(finalAbv) +
-                "\n" +"Final Sugar: " + roundAndLimit(finalSugar) +" - "+sugarRange(finalSugar) +
-                "\n" +"Final Acidity: " + roundAndLimit(finalAcid) + " - "+acidRange(finalAcid) +
-                "\n" +"Sugar to Acid Ratio: "+ new DecimalFormat("#.#").format(sugarAcidBalance) +
-                "\n" + recommendation(arg.getTotals().get(0).getDrink()));
-
+                        "\n" +"Final Volume: " +
+                    (int)finalVol + " ml - "+ volRange(finalVol) +
+                    "\n" + "Final Abv%: " +
+                    roundAndLimit(finalAbv) + " - "+abvRange(finalAbv) +
+                     "\n" +"Final Sugar: " +
+                    roundAndLimit(finalSugar) +" - "+sugarRange(finalSugar) +
+                    "\n" +"Final Acidity: " +
+                    roundAndLimit(finalAcid) + " - "+acidRange(finalAcid) +
+                    "\n" +"Sugar to Acid Ratio: "+
+                    new DecimalFormat("#.#").format(sugarAcidBalance) +
+                    "\n" + "\n" + "RECOMMENDED RECIPES:" + "\n" + "-------------------" +
+                    "\n" +recommendation(arg.getTotals().get(0).getDrink()));
 
     }
 
@@ -120,67 +124,64 @@ public class MyModel extends Observable implements Model {
         }
         return message;
     }
-
+    //recipes recommendation based on user choice of spirit
     public String recommendation(int drink) {
+        String recipes = null;
 
-        System.out.println("RECOMMENDED RECIPES:" + "\n" + "-------------------" + "\n");
         switch(drink) {
             case 1:
-                System.out.println("Vodka based recipes:");
-                System.out.println("1. Vodka Martini: " +
-                        "\n" + "-90ml - Vodka"+
-                        "\n" + "-30ml - dry vermouth"+
-                        "\n" + "-1 - lemon peel" + "\n");
-                System.out.println("2. Moscow Mule: " +
-                        "\n" + "-60ml - Vodka"+
-                        "\n" + "-60ml - ginger beer"+
-                        "\n" + "-30ml - lime juice");
+                recipes = "Vodka based recipes:" +"\n" + "1. Vodka Martini: " +
+                        "\n" + "*90ml - Vodka"+
+                        "\n" + "*30ml - dry vermouth"+
+                        "\n" + "*1 - lemon peel" +"\n" +
+                        "\n" +"2. Moscow Mule: " +
+                        "\n" + "*60ml - Vodka"+
+                        "\n" + "*60ml - ginger beer"+
+                        "\n" + "*30ml - lime juice";
                 break;
             case 2:
-                System.out.println("Gin based recipes:");
-                System.out.println("1. Gimlet: " +
-                        "\n" + "-60ml - Gin"+
-                        "\n" + "-30ml - simple syrup"+
-                        "\n" + "-30ml - lime juice" + "\n");
-                System.out.println("2. Negroni: " +
-                        "\n" + "-30ml - Gin"+
-                        "\n" + "-30ml - Campari"+
-                        "\n" + "-30ml - Sweet vermouth");
+                recipes = "Gin based recipes:"+ "\n "+ "1. Gimlet: " +
+                        "\n" + "*60ml - Gin"+
+                        "\n" + "*30ml - simple syrup"+
+                        "\n" + "*30ml - lime juice" +"\n" +
+                        "\n" +"2. Negroni: " +
+                        "\n" + "*30ml - Gin"+
+                        "\n" + "*30ml - Campari"+
+                        "\n" + "*30ml - Sweet vermouth";
                 break;
             case 3:
-                System.out.println("Wiskey based recipes:");
-                System.out.println("1. Old Fashioned: " +
-                        "\n" + "-60ml - Wiskey"+
-                        "\n" + "-15ml - simple syrup"+
-                        "\n" + "-3 dashes - Angostura bitters" + "\n");
-                System.out.println("2. Sazerac: " +
-                        "\n" + "-30ml - Rye whiskey"+
-                        "\n" + "-30ml - Congac"+
-                        "\n" + "-3 dashes - Angostura bitters");
+                recipes = "Wiskey based recipes:"+ "\n" +"1. Old Fashioned: " +
+                        "\n" + "*60ml - Wiskey"+
+                        "\n" + "*15ml - simple syrup"+
+                        "\n" + "*3 dashes - Angostura bitters" +"\n" +
+                        "\n" + "2. Sazerac: " +
+                        "\n" + "*30ml - Rye whiskey"+
+                        "\n" + "*30ml - Congac"+
+                        "\n" + "*3 dashes - Angostura bitters";
                 break;
             case 4:
                 System.out.println("Rum based recipes:");
-                System.out.println("1. Daquiri: " +
-                        "\n" + "-45ml - White Rum"+
-                        "\n" + "-15ml - simple syrup"+
-                        "\n" + "-25ml - lime juice" + "\n");
-                System.out.println("2. Pina colada: " +
-                        "\n" + "-45ml - Rum"+
-                        "\n" + "-30ml - pineapple juice"+
-                        "\n" + "-25ml - coconut water");
+                recipes = "Rum based recipes:" + "\n" + "1. Daquiri: " +
+                        "\n" + "*45ml - White Rum"+
+                        "\n" + "*15ml - simple syrup"+
+                        "\n" + "*25ml - lime juice" +"\n" +
+                        "\n" + "2. Pina colada: " +
+                        "\n" + "*45ml - Rum"+
+                        "\n" + "*30ml - pineapple juice"+
+                        "\n" + "*25ml - coconut water";
                 break;
             case 5:
                 System.out.println("Campari based recipes:");
-                System.out.println("1. Negroni: " +
-                        "\n" + "-30ml - Gin"+
-                        "\n" + "-30ml - Campari"+
-                        "\n" + "-30ml - Sweet vermouth");
-                System.out.println("2. Americano: " +
-                        "\n" + "-45ml - Campari"+
-                        "\n" + "-30ml - Sweet vermouth"+
-                        "\n" + "-topped with club soda");
+                recipes = "Campari based recipes:" + "\n" + "1. Negroni: " +
+                        "\n" + "*30ml - Gin"+
+                        "\n" + "*30ml - Campari"+
+                        "\n" + "*30ml - Sweet vermouth" +"\n" +
+                        "\n" + "2. Americano: " +
+                        "\n" + "*45ml - Campari"+
+                        "\n" + "*30ml - Sweet vermouth"+
+                        "\n" + "*topped with club soda";
                 break;
         }
-        return "end";
+        return recipes;
     }
 }

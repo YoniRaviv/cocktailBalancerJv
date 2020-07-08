@@ -55,12 +55,13 @@ public class MyModelTest {
     public void roundAndLimit() {
         double value = 0.4233;
         DecimalFormat df = new DecimalFormat("#.##%");
-        assertEquals("formating not working", "42.33%", df.format(value));
+        assertEquals("formatting not working", "42.33%", df.format(value));
 
     }
 
     @Test
     public void recommendation() {
-
+        int drink = 1; //vodka
+        assertTrue("not the right spirit", drink == 1);
     }
 }

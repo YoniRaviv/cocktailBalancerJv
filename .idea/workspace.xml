@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="51658972-2467-454e-a781-f047c8495907" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cocktailCalc/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cocktailCalc/model/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/AlcoholData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/JuiceData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/driver/MVCDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/driver/MVCDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/FinalCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/FinalCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/MyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/MyModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Total.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Total.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MyCLIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MyCLIView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/model/MyModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/model/MyModelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/MyCLIView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="214">
+              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3657#3658#0" expanded="true" />
@@ -43,51 +33,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/driver/MVCDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/DataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/MyController.java">
+        <entry file="file://$PROJECT_DIR$/src/model/FinalCalc.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <caret line="25" column="77" lean-forward="true" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/MyModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-698">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,41 +54,176 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Ingredient.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/MyModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/FinalCalc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="1458">
+              <caret line="127" column="59" selection-start-line="127" selection-start-column="59" selection-end-line="127" selection-end-column="59" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/model/MyModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/DataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/driver/MVCDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="0.0" y="778.8828125">com</node>
+                <node x="102.77136752136752" y="287.0">controller</node>
+                <node x="550.0" y="556.8828125">netscape</node>
+                <node x="0.0" y="704.8828125">junit</node>
+                <node x="235.0" y="630.8828125">oracle</node>
+                <node x="106.88354700854703" y="0.0">data</node>
+                <node x="185.0" y="778.8828125">org</node>
+                <node x="305.0" y="556.8828125">resources</node>
+                <node x="405.0" y="440.0">toolbarButtonGraphics</node>
+                <node x="370.0" y="778.8828125">sun</node>
+                <node x="0.0" y="630.8828125">META-INF</node>
+                <node x="555.0" y="778.8828125">jdk</node>
+                <node x="205.0" y="704.8828125">apple</node>
+                <node x="36.5" y="208.0">view</node>
+                <node x="0.0" y="556.8828125">groovyjarjarasm</node>
+                <node x="615.0" y="704.8828125">java</node>
+                <node x="450.0" y="630.8828125">groovy</node>
+                <node x="38.771367521367495" y="366.0">driver</node>
+                <node x="410.0" y="704.8828125">javax</node>
+                <node x="101.88354700854703" y="79.0">model</node>
+                <node x="30.0" y="452.8828125">groovyjarjarcommonscli</node>
+                <node x="665.0" y="630.8828125">javafx</node>
+                <node x="414.27136752136744" y="15.299479166666664">groovyjarjarantlr</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="driver" target="controller">
+                  <point x="42.5" y="-14.5" />
+                  <point x="166.2713675213675" y="336.0" />
+                  <point x="260.27136752136755" y="336.0" />
+                  <point x="52.5" y="14.5" />
+                </edge>
+                <edge source="driver" target="view">
+                  <point x="-14.166666666666657" y="-14.5" />
+                  <point x="109.60470085470084" y="346.0" />
+                  <point x="92.27136752136752" y="346.0" />
+                  <point x="-18.75" y="14.5" />
+                </edge>
+                <edge source="view" target="model">
+                  <point x="37.5" y="-14.5" />
+                  <point x="149.0" y="188.0" />
+                  <point x="199.6613247863248" y="188.0" />
+                  <point x="17.77777777777777" y="14.5" />
+                </edge>
+                <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+                  <point x="-93.33333333333333" y="14.5" />
+                  <point x="460.9380341880341" y="64.29947916666666" />
+                  <point x="394.27136752136744" y="64.29947916666666" />
+                  <point x="394.27136752136744" y="39.46614583333333" />
+                  <point x="-140.0" y="9.666666666666666" />
+                </edge>
+                <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+                  <point x="82.5" y="14.5" />
+                  <point x="277.5" y="511.8828125" />
+                  <point x="0.0" y="511.8828125" />
+                  <point x="0.0" y="460.1328125" />
+                  <point x="-165.0" y="-7.25" />
+                </edge>
+                <edge source="driver" target="model">
+                  <point x="-70.83333333333331" y="-14.5" />
+                  <point x="52.93803418803418" y="346.0" />
+                  <point x="26.0" y="346.0" />
+                  <point x="26.0" y="168.0" />
+                  <point x="164.10576923076925" y="168.0" />
+                  <point x="-17.77777777777777" y="14.5" />
+                </edge>
+                <edge source="model" target="data">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="controller" target="view">
+                  <point x="-78.74999999999997" y="-14.5" />
+                  <point x="129.02136752136755" y="262.0" />
+                  <point x="130.25" y="262.0" />
+                  <point x="18.75" y="14.5" />
+                </edge>
+                <edge source="model" target="model">
+                  <point x="-71.11111111111111" y="14.5" />
+                  <point x="110.77243589743591" y="128.0" />
+                  <point x="81.88354700854703" y="128.0" />
+                  <point x="81.88354700854703" y="103.16666666666669" />
+                  <point x="-80.0" y="9.666666666666686" />
+                </edge>
+                <edge source="controller" target="model">
+                  <point x="26.25000000000003" y="-14.5" />
+                  <point x="234.02136752136755" y="262.0" />
+                  <point x="249.38995726495727" y="262.0" />
+                  <point x="249.38995726495727" y="188.0" />
+                  <point x="217.43910256410257" y="188.0" />
+                  <point x="35.55555555555554" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.205594405594406" x="-4.414153132250391" y="179.0719257540603" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/driver.MVCDriver">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>driver.MVCDriver</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">driver.MVCDriver</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-299.0" y="-33.5" />
+              <SelectedNodes>
+                <node>driver.MVCDriver</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Inner Classes</Category>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -171,27 +258,27 @@
         <option value="$PROJECT_DIR$/src/model/FinalCalcTest.java" />
         <option value="$PROJECT_DIR$/test/FinalCalcTest.java" />
         <option value="$PROJECT_DIR$/src/model/Model.java" />
-        <option value="$PROJECT_DIR$/src/model/MyModel.java" />
-        <option value="$PROJECT_DIR$/test/model/MyModelTest.java" />
         <option value="$PROJECT_DIR$/test/model/FinalCalcTest.java" />
         <option value="$PROJECT_DIR$/test/model/TotalTest.java" />
         <option value="$PROJECT_DIR$/src/view/View.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/data/JuiceData.java" />
         <option value="$PROJECT_DIR$/src/data/DataBase.java" />
-        <option value="$PROJECT_DIR$/src/controller/MyController.java" />
         <option value="$PROJECT_DIR$/src/driver/MVCDriver.java" />
         <option value="$PROJECT_DIR$/src/model/FinalCalc.java" />
         <option value="$PROJECT_DIR$/src/model/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/model/Total.java" />
+        <option value="$PROJECT_DIR$/src/controller/MyController.java" />
         <option value="$PROJECT_DIR$/src/view/MyCLIView.java" />
+        <option value="$PROJECT_DIR$/src/model/MyModel.java" />
+        <option value="$PROJECT_DIR$/test/model/MyModelTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1812" />
+    <option name="x" value="-1772" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1595" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -305,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FinalCalcTest">
+  <component name="RunManager" selected="JUnit.MyModelTest">
     <configuration name="MVCDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="driver.MVCDriver" />
       <module name="cocktailCalc" />
@@ -366,10 +453,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinalCalcTest" />
         <item itemvalue="JUnit.MyModelTest" />
-        <item itemvalue="JUnit.TotalTest" />
         <item itemvalue="Application.MVCDriver" />
+        <item itemvalue="JUnit.FinalCalcTest" />
+        <item itemvalue="JUnit.TotalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +473,7 @@
       <workItem from="1591711191846" duration="2094000" />
       <workItem from="1591718348862" duration="225000" />
       <workItem from="1592317100406" duration="39922000" />
-      <workItem from="1594047428011" duration="14209000" />
+      <workItem from="1594047428011" duration="26360000" />
     </task>
     <task id="LOCAL-00001" summary="all calculations functions are done!">
       <created>1592573940738</created>
@@ -430,7 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594124908001</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="results and DB fixed">
+      <created>1594126660928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594126660928</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added recommendation functionality">
+      <created>1594195412459</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594195412459</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -466,12 +567,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56450000" />
+    <option name="totallyTimeSpent" value="68601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1812" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="-1772" y="23" width="1595" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27301997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,16 +582,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496337" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49517062" weight="0.3026738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4945055" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4932389" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50549453" side_tool="true" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49967805" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50676113" side_tool="true" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.498779" weight="0.32834226" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -510,7 +612,9 @@
     <MESSAGE value="CLI final look" />
     <MESSAGE value="Unit tests and cosmetic changes" />
     <MESSAGE value="finished JUnit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished JUnit tests" />
+    <MESSAGE value="results and DB fixed" />
+    <MESSAGE value="added recommendation functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="added recommendation functionality" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hit/controller/Controller.java" />
@@ -519,69 +623,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Finals.java" />
-    <entry file="uml://JAVA/controller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>controller</OriginalElement>
-          <nodes>
-            <node x="" y="">controller.Controller</node>
-            <node x="" y="">controller.MyController</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model</OriginalElement>
-          <nodes>
-            <node x="0.0" y="506.0">model.Total</node>
-            <node x="504.0" y="0.0">model.FinalCalc</node>
-            <node x="277.0" y="0.0">model.Ingredient</node>
-            <node x="0.0" y="79.0">model.MyModel</node>
-            <node x="282.5" y="278.0">model.Spirit</node>
-            <node x="68.0" y="0.0">model.Model</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="model.MyModel" target="model.Model">
-              <point x="0.0" y="-191.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="model.Spirit" target="model.Ingredient">
-              <point x="0.0" y="-48.0" />
-              <point x="0.0" y="114.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-228.5" y="120.0" />
-          <SelectedNodes>
-            <node>model.Spirit</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/model/MyModelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/model/FinalCalcTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -627,53 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/driver/MVCDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FinalCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -684,12 +682,347 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/MyModel.java">
+    <entry file="file://$PROJECT_DIR$/src/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-698">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/driver.MVCDriver">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>driver.MVCDriver</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">driver.MVCDriver</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-299.0" y="-33.5" />
+          <SelectedNodes>
+            <node>driver.MVCDriver</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/view">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>view</OriginalElement>
+          <nodes>
+            <node x="" y="">view.View</node>
+            <node x="" y="">view.MyCLIView</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="68.0" y="149.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>controller</OriginalElement>
+          <nodes>
+            <node x="" y="">controller.Controller</node>
+            <node x="" y="">controller.MyController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="54.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-cocktailCalc">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-cocktailCalc</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-cocktailCalc</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="78.5" y="10.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/data.DataBase">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>data.DataBase</OriginalElement>
+          <nodes>
+            <node x="31.25" y="101.0">java.lang.Enum</node>
+            <node x="0.0" y="0.0">java.lang.Comparable</node>
+            <node x="82.25" y="489.0">data.DataBase</node>
+            <node x="173.0" y="11.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.Enum" target="java.io.Serializable">
+              <point x="67.5" y="-169.0" />
+              <point x="233.75" y="76.0" />
+              <point x="256.0" y="76.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="java.lang.Enum" target="java.lang.Comparable">
+              <point x="-67.5" y="-169.0" />
+              <point x="98.75" y="76.0" />
+              <point x="76.5" y="76.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="data.DataBase" target="java.lang.Enum">
+              <point x="0.0" y="-191.0" />
+              <point x="0.0" y="169.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-201.0" y="220.0" />
+          <SelectedNodes>
+            <node>java.lang.Enum</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model</OriginalElement>
+          <nodes>
+            <node x="943.8822916666666" y="0.0">model.FinalCalcTest</node>
+            <node x="434.19999999999993" y="0.0">model.Total</node>
+            <node x="514.8822916666666" y="289.5">model.TotalTest</node>
+            <node x="185.88229166666662" y="212.0">model.FinalCalc</node>
+            <node x="716.8822916666666" y="0.0">model.Ingredient</node>
+            <node x="275.140625" y="701.0">model.MyModel</node>
+            <node x="722.3822916666666" y="278.0">model.Spirit</node>
+            <node x="0.0" y="490.0">model.Model</node>
+            <node x="252.0" y="490.0">model.MyModelTest</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="model.MyModelTest" target="model.FinalCalc">
+              <point x="44.75" y="-80.5" />
+              <point x="386.25" y="465.0" />
+              <point x="340.3822916666667" y="465.0" />
+              <point x="5.6843418860808015E-14" y="114.0" />
+            </edge>
+            <edge source="model.MyModel" target="model.Model">
+              <point x="-77.33333333333331" y="-125.0" />
+              <point x="313.8072916666667" y="676.0" />
+              <point x="116.0" y="676.0" />
+              <point x="0.0" y="80.5" />
+            </edge>
+            <edge source="model.FinalCalc" target="model.Total">
+              <point x="77.25" y="-114.0" />
+              <point x="417.6322916666666" y="192.0" />
+              <point x="499.07499999999993" y="192.0" />
+              <point x="-21.625" y="81.0" />
+            </edge>
+            <edge source="model.TotalTest" target="model.Total">
+              <point x="39.25" y="-36.5" />
+              <point x="632.6322916666666" y="192.0" />
+              <point x="585.5749999999999" y="192.0" />
+              <point x="64.875" y="81.0" />
+            </edge>
+            <edge source="model.Spirit" target="model.Ingredient">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="114.0" />
+            </edge>
+            <edge source="model.Model" target="model.FinalCalc">
+              <point x="0.0" y="-80.5" />
+              <point x="116.0" y="465.0" />
+              <point x="216.78229166666662" y="465.0" />
+              <point x="-123.6" y="114.0" />
+            </edge>
+            <edge source="model.MyModel" target="model.FinalCalc">
+              <point x="0.0" y="-125.0" />
+              <point x="391.140625" y="676.0" />
+              <point x="441.5" y="676.0" />
+              <point x="441.5" y="465.0" />
+              <point x="402.18229166666663" y="465.0" />
+              <point x="61.80000000000001" y="114.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8932028836251287" x="149.11910526922634" y="248.6959529574542" />
+          <SelectedNodes>
+            <node>model.Model</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="778.8828125">com</node>
+            <node x="102.77136752136752" y="287.0">controller</node>
+            <node x="550.0" y="556.8828125">netscape</node>
+            <node x="0.0" y="704.8828125">junit</node>
+            <node x="235.0" y="630.8828125">oracle</node>
+            <node x="106.88354700854703" y="0.0">data</node>
+            <node x="185.0" y="778.8828125">org</node>
+            <node x="305.0" y="556.8828125">resources</node>
+            <node x="405.0" y="440.0">toolbarButtonGraphics</node>
+            <node x="370.0" y="778.8828125">sun</node>
+            <node x="0.0" y="630.8828125">META-INF</node>
+            <node x="555.0" y="778.8828125">jdk</node>
+            <node x="205.0" y="704.8828125">apple</node>
+            <node x="36.5" y="208.0">view</node>
+            <node x="0.0" y="556.8828125">groovyjarjarasm</node>
+            <node x="615.0" y="704.8828125">java</node>
+            <node x="450.0" y="630.8828125">groovy</node>
+            <node x="38.771367521367495" y="366.0">driver</node>
+            <node x="410.0" y="704.8828125">javax</node>
+            <node x="101.88354700854703" y="79.0">model</node>
+            <node x="30.0" y="452.8828125">groovyjarjarcommonscli</node>
+            <node x="665.0" y="630.8828125">javafx</node>
+            <node x="414.27136752136744" y="15.299479166666664">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="driver" target="controller">
+              <point x="42.5" y="-14.5" />
+              <point x="166.2713675213675" y="336.0" />
+              <point x="260.27136752136755" y="336.0" />
+              <point x="52.5" y="14.5" />
+            </edge>
+            <edge source="driver" target="view">
+              <point x="-14.166666666666657" y="-14.5" />
+              <point x="109.60470085470084" y="346.0" />
+              <point x="92.27136752136752" y="346.0" />
+              <point x="-18.75" y="14.5" />
+            </edge>
+            <edge source="view" target="model">
+              <point x="37.5" y="-14.5" />
+              <point x="149.0" y="188.0" />
+              <point x="199.6613247863248" y="188.0" />
+              <point x="17.77777777777777" y="14.5" />
+            </edge>
+            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
+              <point x="-93.33333333333333" y="14.5" />
+              <point x="460.9380341880341" y="64.29947916666666" />
+              <point x="394.27136752136744" y="64.29947916666666" />
+              <point x="394.27136752136744" y="39.46614583333333" />
+              <point x="-140.0" y="9.666666666666666" />
+            </edge>
+            <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+              <point x="82.5" y="14.5" />
+              <point x="277.5" y="511.8828125" />
+              <point x="0.0" y="511.8828125" />
+              <point x="0.0" y="460.1328125" />
+              <point x="-165.0" y="-7.25" />
+            </edge>
+            <edge source="driver" target="model">
+              <point x="-70.83333333333331" y="-14.5" />
+              <point x="52.93803418803418" y="346.0" />
+              <point x="26.0" y="346.0" />
+              <point x="26.0" y="168.0" />
+              <point x="164.10576923076925" y="168.0" />
+              <point x="-17.77777777777777" y="14.5" />
+            </edge>
+            <edge source="model" target="data">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="controller" target="view">
+              <point x="-78.74999999999997" y="-14.5" />
+              <point x="129.02136752136755" y="262.0" />
+              <point x="130.25" y="262.0" />
+              <point x="18.75" y="14.5" />
+            </edge>
+            <edge source="model" target="model">
+              <point x="-71.11111111111111" y="14.5" />
+              <point x="110.77243589743591" y="128.0" />
+              <point x="81.88354700854703" y="128.0" />
+              <point x="81.88354700854703" y="103.16666666666669" />
+              <point x="-80.0" y="9.666666666666686" />
+            </edge>
+            <edge source="controller" target="model">
+              <point x="26.25000000000003" y="-14.5" />
+              <point x="234.02136752136755" y="262.0" />
+              <point x="249.38995726495727" y="262.0" />
+              <point x="249.38995726495727" y="188.0" />
+              <point x="217.43910256410257" y="188.0" />
+              <point x="35.55555555555554" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.205594405594406" x="-4.414153132250391" y="179.0719257540603" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/driver/MVCDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/FinalCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="77" lean-forward="true" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -703,8 +1036,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/MyCLIView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="214">
+          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3657#3658#0" expanded="true" />
@@ -713,10 +1046,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/data/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="323">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/model/MyModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/MyModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="127" column="59" selection-start-line="127" selection-start-column="59" selection-end-line="127" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
